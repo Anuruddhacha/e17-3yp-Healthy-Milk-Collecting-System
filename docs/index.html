@@ -33,10 +33,8 @@
             background: linear-gradient(to bottom, #6dd5ed, #2193b0); 
             */
          
-  
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 20px;
+            margin: 0;
+            padding:0;
 /*   outline: 1px solid #ccc; */
 
         }
@@ -394,21 +392,21 @@
     
             
       <!--   <p class="text-grey-darker text-xs mb-8">Responsive cards (1 / 2 / 3 cols); card footer; css flex properties for equal heights. Unsplash photos.</p> -->
-        <div class="flex flex-wrap -m-3"> 
+      <div class="container">
+      <div class="flex flex-wrap -m-3"> 
 
 
 
 
-          <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+          <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3 container">
+            <div class="bg-info rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
               <div class="bg-cover h-48">
                <img src="images/technologies/flutterv1.jfif" class="img img-fluid pt-4"  alt="data_flow">
 
 
 
                 </div>
-              <div class="p-4 flex-1 flex flex-col" style="
-        ">
+              <div class="p-4 flex-1 flex flex-col">
                 <h3 class="mb-4 text-2xl">Flutter</h3>
                 <div class="mb-4 text-grey-darker text-sm flex-1">
 
@@ -421,16 +419,16 @@
           </div>
 
 
-             <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+             <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3 container">
+            <div class="bg-info rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
               <div class="bg-cover h-48">
                <img src="images/technologies/laravel.jfif" class="img img-fluid pt-4"  alt="data_flow">
 
 
 
                 </div>
-              <div class="p-4 flex-1 flex flex-col" style="
-        ">
+              <div class="p-4 flex-1 flex flex-col"
+        >
                 <h3 class="mb-4 text-2xl">Laravel</h3>
                 <div class="mb-4 text-grey-darker text-sm flex-1">
 
@@ -443,16 +441,15 @@
           </div>
 
 
-             <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+             <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3 container">
+            <div class="bg-info rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
               <div class="bg-cover h-48">
                <img src="images/technologies/aws.jfif" class="img img-fluid pt-4"  alt="data_flow">
 
 
 
                 </div>
-              <div class="p-4 flex-1 flex flex-col" style="
-        ">
+              <div class="p-4 flex-1 flex flex-col">
                 <h3 class="mb-4 text-2xl">AWS</h3>
                 <div class="mb-4 text-grey-darker text-sm flex-1">
 
@@ -465,29 +462,12 @@
             </div>  
           </div>
 
-
+        </div>  
         </div>   
 
     	</div>
-    	<div id="design" class="section">
-        <h3 class="container">Hardware & Software Designs</h3>
-        	<h4 class="container">Mobile Application User interfaces</h4>
-            <div class="container justify-content-center">
-                <img src="images/AppUi/login.PNG" class="img img-fluid p-1 p-md-3 col-12 col-md-3" alt="architecture">
-                <img src="images/AppUi/home.PNG" class="img img-fluid p-1 p-md-3 col-12 col-md-3"  alt="data_flow">
-                <img src="images/AppUi/overalldetails.PNG" class="img img-fluid p-1 p-md-3 col-12 col-md-3" alt="architecture" >
-                <img src="images/AppUi/dailyData.PNG" class="img img-fluid p-1 p-md-3 col-12 col-md-3"  alt="data_flow" >
-                
-            </div>
-            <h4 class="container">3D Designs of model</h4>
-            <div class="container">
-                <img src="images/3d_design/model.jpeg" class="img img-fluid p-4 col-12 col-md-3" alt="model">
-
-            </div>
-    	</div><br>
-    	<div id="testing" class="section">
-        <h3 class="container">Testing</h3>
-    	</div>
+    	
+    	
 
     	<div id="design" class="section">
         <h3 class="container">Hardware & Software Designs</h3>
@@ -612,88 +592,7 @@
 
         </div>
         <div>
-        <div class="container">
-        <h4 class="text-center">Timeline</h4>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="main-timeline">
-                        <a href="#!" class="timeline">
-                            <div class="timeline-icon"><i class="fas fa-lightbulb"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Project Planning</h3>
-                                <h5 class="badge badge-fill bg-success">Done</h5>
-                                <h5 class="badge badge-fill bg-info text-dark ml-3">6 weeks</h5>
-                                <p class="description ftco-animate">
-                                   In first 6 weeks, Our team discussed about several project ideas. Among them, we decided
-                                   to build a milk analysor which can be used by dairy collectors to enhance the deal with dairy farmers.
-                                   After deciding Hardware components, technologies and timeline, A project proposal was presented in this phase.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#!" class="timeline">
-                            <div class="timeline-icon"><i class="fas fa-code"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Backend Design</h3>
-                                <h5 class="badge badge-fill bg-primary">In progress</h5>
-                                <h5 class="badge badge-fill bg-info text-dark ml-3">2 weeks</h5>
-                                <p class="description ftco-animate">
-                                    In this phase, basic backend functionalities are implemented in a Laravel project.
-                                    API desgning is the main task in this 2 weeks after creating database models.    
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#!" class="timeline">
-                            <div class="timeline-icon"><i class="fas fa-mobile-alt"></i></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Frontend Design</h3>
-                                <h5 class="badge badge-fill bg-info text-dark ml-3">3 weeks</h5>
-                                <p class="description ftco-animate">
-                                   Developing mobile application as a flutter project takes place in this 3 weeks. 
-                                   User interfaces are created such a way that users of application can easily manage their activities.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#!" class="timeline">
-                            <div class="timeline-icon"><i class="fas fa-microchip"></i></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Hardware Design</h3>
-                                <h5 class="badge badge-fill bg-info text-dark ml-3">2 weeks</h5>
-                                <p class="description ftco-animate">
-                                    Hardware solution is designed in this phase. 
-                                    All sensors are connected to the main unit and tested by getting measurements. 
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#!" class="timeline">
-                            <div class="timeline-icon"><i class="fas fa-cloud-upload-alt"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Cloud Deployment</h3>
-                                <h5 class="badge badge-fill bg-info text-dark ml-3">1 weeks</h5>
-                                <p class="description ftco-animate">
-                                    This week is for Deployment tasks.
-                                    Some testing activities also take place on hosting.
-                                    All issues are resolved in previous phases as well.
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#!" class="timeline">
-                            <div class="timeline-icon"><i class="fas fa-puzzle-piece"></i></div>
-                            <div class="timeline-content">
-                                <h3 class="title">Integration</h3>
-                                <h5 class="badge badge-fill bg-info text-dark ml-3">1 weeks</h5>
-                                <p class="description ftco-animate">
-                                   this is the last phase of our project. All systems are tested after integrating together.
-                                   After this phase, A final model is presented.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        </div>
-        <div>
+       
         <div class="container">
         <h4 class="text-center">Timeline</h4>
             <div class="row">
@@ -806,7 +705,7 @@
 	">
     	<style type="text/css">
     		.icon-img{
-    				width: 20px;
+    			width: 20px;
     		}
             #btn-back-to-top {
               position: fixed;
@@ -841,50 +740,6 @@
     		}
     	</style>
         
-
-        
-    </div>
-    <div class="pt-4 pb-4" style="background: #4B79A1;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	">
-    	<style type="text/css">
-    		.icon-img{
-    				width: 20px;
-    		}
-            #btn-back-to-top {
-              position: fixed;
-              width: 60px;
-              height: 60px;
-              border-radius: 30px;
-              bottom: 20px;
-              right: 20px;
-              display: none;
-            }
-    		.card{
-        		cursor: pointer;
-                background:darkturquoise;  /* fallback for old browsers */
-                /* background: -webkit-linear-gradient(to top, #8f94fb, #4e54c8); 
-                background: linear-gradient(to top, #8f94fb, #4e54c8);  */
-                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-                border-left: 1px solid rgba(0, 0, 0, 0.5);
-                border-top: 1px solid rgba(0, 0, 0, 0.5);
-                border-radius: 5px;
-                transform-style: preserve-3d;
-                
-    		}
-            .card:hover{
-                transform: scale(1.05);
-                transition: 1.6s all;
-            }
-    		@media(max-width: 800px){
-    			
-    			.card{
-    				max-width: 50%;
-    			}
-    		}
-    	</style>
-
         <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top" style="z-index: 5">
           <i class="fas fa-arrow-up"></i>
         </button>
